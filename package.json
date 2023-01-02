@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "packageManager": "^pnpm@7.20.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm  --parallel --filter \"./**\" dev",
+    "build": "pnpm  --parallel --filter \"./**\" build",
+    "preview": "pnpm  --parallel --filter \"./**\" preview",
+    "stop": "kill-port --port 5000,5001"
   },
   "keywords": [],
   "author": "",
