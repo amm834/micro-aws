@@ -1,0 +1,25 @@
+name: 'Host application'
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/host/**'
+  pull_request:
+    branches:
+      - main
+
+defaults:
+  run:
+    working-directory: packages/host
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: pnpm install
+      - run: pnpm build
