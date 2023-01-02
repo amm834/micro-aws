@@ -8,9 +8,12 @@
     "dev": "pnpm  --parallel --filter \"./**\" dev",
     "build": "pnpm  --parallel --filter \"./**\" build",
     "preview": "pnpm  --parallel --filter \"./**\" preview",
-    "stop": "kill-port --port 5000,5001"
+    "stop": "kill-port --port 3001,3002"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "kill-port": "^2.0.1"
+  }
 }
