@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import "./index.css";
+import Product from "./Product";
+import Pricing from "./Pricing";
 
 const App = () => (
-  <div className="container">
-    <div>Name: products</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Product/>}/>
+            <Route path="/pricing" element={<Pricing/>}/>
+        </Routes>
+    </BrowserRouter>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App/>, document.getElementById("app"));

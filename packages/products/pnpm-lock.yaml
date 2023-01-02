@@ -1,94 +1,46 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@babel/core': ^7.15.8
+  '@babel/plugin-transform-runtime': ^7.15.8
+  '@babel/preset-env': ^7.15.8
+  '@babel/preset-react': ^7.14.5
+  '@babel/runtime': ^7.13.10
+  autoprefixer: ^10.1.0
+  babel-loader: ^8.2.2
+  css-loader: ^6.3.0
+  html-webpack-plugin: ^5.3.2
+  postcss: ^8.2.1
+  postcss-loader: ^4.1.0
+  react: ^17.0.2
+  react-dom: ^17.0.2
+  react-router-dom: ^6.6.1
+  style-loader: ^3.3.0
+  webpack: ^5.57.1
+  webpack-cli: ^4.9.0
+  webpack-dev-server: ^4.3.1
 
-  .:
-    specifiers:
-      kill-port: ^2.0.1
-    dependencies:
-      kill-port: 2.0.1
+dependencies:
+  '@babel/runtime': 7.20.7
+  react: 17.0.2
+  react-dom: 17.0.2_react@17.0.2
+  react-router-dom: 6.6.1_sfoxds7t5ydpegc3knd667wn6m
 
-  packages/host:
-    specifiers:
-      '@babel/core': ^7.15.8
-      '@babel/plugin-transform-runtime': ^7.15.8
-      '@babel/preset-env': ^7.15.8
-      '@babel/preset-react': ^7.14.5
-      '@babel/runtime': ^7.13.10
-      autoprefixer: ^10.1.0
-      babel-loader: ^8.2.2
-      css-loader: ^6.3.0
-      html-webpack-plugin: ^5.3.2
-      postcss: ^8.2.1
-      postcss-loader: ^4.1.0
-      react: ^17.0.2
-      react-dom: ^17.0.2
-      react-router-dom: ^6.6.1
-      style-loader: ^3.3.0
-      webpack: ^5.57.1
-      webpack-cli: ^4.9.0
-      webpack-dev-server: ^4.3.1
-    dependencies:
-      '@babel/runtime': 7.20.7
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 6.6.1_sfoxds7t5ydpegc3knd667wn6m
-    devDependencies:
-      '@babel/core': 7.20.7
-      '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.7
-      '@babel/preset-env': 7.20.2_@babel+core@7.20.7
-      '@babel/preset-react': 7.18.6_@babel+core@7.20.7
-      autoprefixer: 10.4.13_postcss@8.4.20
-      babel-loader: 8.3.0_lkd654lvpl423ugsqn5olungie
-      css-loader: 6.7.3_webpack@5.75.0
-      html-webpack-plugin: 5.5.0_webpack@5.75.0
-      postcss: 8.4.20
-      postcss-loader: 4.3.0_qxxfhhrl3yknjjmta266mo3u64
-      style-loader: 3.3.1_webpack@5.75.0
-      webpack: 5.75.0_webpack-cli@4.10.0
-      webpack-cli: 4.10.0_uaydpeuxkjjcxdbyfgk36cjdxi
-      webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
-
-  packages/products:
-    specifiers:
-      '@babel/core': ^7.15.8
-      '@babel/plugin-transform-runtime': ^7.15.8
-      '@babel/preset-env': ^7.15.8
-      '@babel/preset-react': ^7.14.5
-      '@babel/runtime': ^7.13.10
-      autoprefixer: ^10.1.0
-      babel-loader: ^8.2.2
-      css-loader: ^6.3.0
-      html-webpack-plugin: ^5.3.2
-      postcss: ^8.2.1
-      postcss-loader: ^4.1.0
-      react: ^17.0.2
-      react-dom: ^17.0.2
-      react-router-dom: ^6.6.1
-      style-loader: ^3.3.0
-      webpack: ^5.57.1
-      webpack-cli: ^4.9.0
-      webpack-dev-server: ^4.3.1
-    dependencies:
-      '@babel/runtime': 7.20.7
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 6.6.1_sfoxds7t5ydpegc3knd667wn6m
-    devDependencies:
-      '@babel/core': 7.20.7
-      '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.7
-      '@babel/preset-env': 7.20.2_@babel+core@7.20.7
-      '@babel/preset-react': 7.18.6_@babel+core@7.20.7
-      autoprefixer: 10.4.13_postcss@8.4.20
-      babel-loader: 8.3.0_lkd654lvpl423ugsqn5olungie
-      css-loader: 6.7.3_webpack@5.75.0
-      html-webpack-plugin: 5.5.0_webpack@5.75.0
-      postcss: 8.4.20
-      postcss-loader: 4.3.0_qxxfhhrl3yknjjmta266mo3u64
-      style-loader: 3.3.1_webpack@5.75.0
-      webpack: 5.75.0_webpack-cli@4.10.0
-      webpack-cli: 4.10.0_uaydpeuxkjjcxdbyfgk36cjdxi
-      webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
+devDependencies:
+  '@babel/core': 7.20.7
+  '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.7
+  '@babel/preset-env': 7.20.2_@babel+core@7.20.7
+  '@babel/preset-react': 7.18.6_@babel+core@7.20.7
+  autoprefixer: 10.4.13_postcss@8.4.20
+  babel-loader: 8.3.0_lkd654lvpl423ugsqn5olungie
+  css-loader: 6.7.3_webpack@5.75.0
+  html-webpack-plugin: 5.5.0_webpack@5.75.0
+  postcss: 8.4.20
+  postcss-loader: 4.3.0_qxxfhhrl3yknjjmta266mo3u64
+  style-loader: 3.3.1_webpack@5.75.0
+  webpack: 5.75.0_webpack-cli@4.10.0
+  webpack-cli: 4.10.0_uaydpeuxkjjcxdbyfgk36cjdxi
+  webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
 
 packages:
 
@@ -2519,10 +2471,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /get-them-args/1.3.2:
-    resolution: {integrity: sha512-LRn8Jlk+DwZE4GTlDbT3Hikd1wSHgLMme/+7ddlqKd7ldwR6LjJgTVWzBnR01wnYGe4KgrXjg287RaI22UHmAw==}
-    dev: false
-
   /glob-parent/5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -2879,14 +2827,6 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
     dev: true
-
-  /kill-port/2.0.1:
-    resolution: {integrity: sha512-e0SVOV5jFo0mx8r7bS29maVWp17qGqLBZ5ricNSajON6//kmb7qqqNnml4twNE8Dtj97UQD+gNFOaipS/q1zzQ==}
-    hasBin: true
-    dependencies:
-      get-them-args: 1.3.2
-      shell-exec: 1.0.2
-    dev: false
 
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
@@ -3721,10 +3661,6 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
-
-  /shell-exec/1.0.2:
-    resolution: {integrity: sha512-jyVd+kU2X+mWKMmGhx4fpWbPsjvD53k9ivqetutVW/BQ+WIZoDoP4d8vUMGezV6saZsiNoW2f9GIhg9Dondohg==}
-    dev: false
 
   /side-channel/1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
