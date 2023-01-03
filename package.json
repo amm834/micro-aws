@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "pnpm  --parallel --filter \"./**\" dev",
     "build": "pnpm --filter \"{packages/**}\" build",
