@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "pnpm  --parallel --filter \"./**\" dev",
-    "build": "pnpm --filter \"{packages/**}\" build",
+    "build": "pnpm --filter \"packages/**\" build",
     "preview": "pnpm  --parallel --filter \"./**\" preview",
     "stop": "kill-port --port 5000,5001"
   },
